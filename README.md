@@ -1,6 +1,5 @@
 # Enhancing Few-Shot 3D Point Cloud Classification with Soft Interaction Module and Self-Attention Residual Feedforward
 
-
 ## Environment Requirements
 Before you get started, ensure you have the following dependencies installed:
 - Python3
@@ -10,6 +9,12 @@ Before you get started, ensure you have the following dependencies installed:
 - tensorboard
 
 ## Getting Started
+### Dataset Download and Split
+1. Navigate to the `../dataset/` directory. (Please note that the 'dataset' folder should be at the same level as the project folder. If it doesn't exist, create the directory.)
+2. Download the dataset by clicking on this [ModelNet40](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip) link, and unzip it into the `../dataset/modelnet40_normal_resampled` folder.
+3. Dataset Split: You can choose to split the dataset manually or use our predefined split by copying the './data/base.json' and './data/novel.json' files to `../dataset/modelnet40`.
+
+**WARNING:** If you decide to split the dataset manually, please ensure that the format matches our predefined split.
 
 ### Data Preprocessing
 Before running experiments, it's essential to preprocess the data to enhance training speed. Follow these steps:
@@ -39,6 +44,11 @@ python ./test.py --model pointnet --method protonet
 For further details, refer to 'io_utils.py'.
 
 **Reminder:** You can run the test command directly without executing 'train.py' and 'save_features.py' since we have provided a pre-trained model for PointNet+ProtoNet. You can check your experiment results in `./record/results.txt`.
+
+## Download Pre-trained Weights/Checkpoints
+[Download here]([https://github.com/](https://stduestceducn-my.sharepoint.com/:f:/g/personal/201714060114_std_uestc_edu_cn/ElHniu-5YoxJkbd83qqsqyQBWA000tjw73rUvrH-gZfKNg?e=qzPthM))
+
+
 
 ## References
 This code is adapted from:
