@@ -46,7 +46,7 @@ For further details, refer to 'io_utils.py'.
 **Reminder:** You can run the test command directly without executing 'train.py' and 'save_features.py' since we have provided a pre-trained model for PointNet+ProtoNet. You can check your experiment results in `./record/results.txt`.
 
 ## Download Pre-trained Weights/Checkpoints
-[Download here]([https://github.com/](https://stduestceducn-my.sharepoint.com/:f:/g/personal/201714060114_std_uestc_edu_cn/ElHniu-5YoxJkbd83qqsqyQBWA000tjw73rUvrH-gZfKNg?e=qzPthM))
+[Download Features and Checkpoints](https://stduestceducn-my.sharepoint.com/:f:/g/personal/201714060114_std_uestc_edu_cn/EnGjUXZ07hZLrS7nT8YCfmMBxRRxa6Yk9i_9lfqZJTUP-w?e=JfTE6P)
 
 
 
