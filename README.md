@@ -52,5 +52,6 @@ For further details, refer to 'io_utils.py'.
 
 ## References
 This code is adapted from:
-https://github.com/PeiZhou26/Few-Shot-3D-Point-Cloud-Classification
+https://github.com/PeiZhou26/Few-Shot-3D-Point-Cloud-Classification.
+
 We thank the author for providing code and guidance.
